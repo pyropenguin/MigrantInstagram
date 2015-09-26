@@ -159,7 +159,7 @@ def buildKML():
    kml.write(etree.tostring(etree.ElementTree(kmlobj),pretty_print=True))
    kml.close()
    
-   os.system('open /Applications/\"Google Earth Pro.app\" media_KML.kml')
+   #os.system('open /Applications/\"Google Earth Pro.app\" media_KML.kml')
 
 
 if __name__ == '__main__':
